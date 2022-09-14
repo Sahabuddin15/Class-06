@@ -1,0 +1,93 @@
+.box-1{
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  transition: 2s;
+}
+.box-2{
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+  transition: 4s;
+}
+
+.box-1:hover{
+  width: 100%;
+  background-color:yellow;
+}
+
+.box-2:hover{
+  width: 100%;
+  background-color:paleturquoise;
+
+}
+
+.col-1{
+  width: 8.33%;
+ 
+  
+}
+.col-2{
+  width:16.66%;
+  transition: 3s;
+
+}
+.col-3{
+  width:24.99%;
+}
+.col-4{
+  width:33.32%;
+}
+.col-5{
+  width:41.65%;
+}
+.col-6{
+  width:49.98%;
+}
+.col-7{
+  width:58.31%;
+}
+.col-8{
+  width:66.64%;
+}
+.col-9{
+  width:74.97%;
+}
+.col-10{
+  width:83.3%;
+}
+.col-11{
+  width:91.63%;
+
+  
+}
+.col-12{
+  width:100%;
+}
+
+[class*=col-] {
+  border: 1px solid rgb(149, 255, 0);
+  float:left;
+  box-sizing:border-box;
+}
+.logo-height{
+  height: 200px;
+  background-color:rgb(255, 167, 14);
+  
+}
+.banner-height{
+  height: 200px;
+  background-color:rgb(14, 70, 255);
+  
+}
+.manu-height{
+  height: 50;
+  background-color:rgb(14, 255, 42);
+
+}
+.banner-height:hover{
+  width:100%;
+  background: rgb(60, 122, 58);
+  float:left;
+  box-sizing:border-box;
+}
